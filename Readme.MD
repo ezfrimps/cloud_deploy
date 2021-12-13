@@ -1,0 +1,1 @@
+In this project I will deploy docker containers on AWS by using ECS.
