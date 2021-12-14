@@ -1,0 +1,9 @@
+version: '2'
+services:
+  backend:
+    image: backend_app:latest
+    ports:
+      - '8080:8080'
+    build:
+      dockerfile: Dockerfile
+      context: .
